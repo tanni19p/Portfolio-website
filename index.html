@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanishka-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"><b>Tanishka Pradhan</b></div>   
+            <div class="right">
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <button id="theme-toggle">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" aria-label="About Me">
+            <div class="leftsection">
+                <img src="https://i.postimg.cc/zfMJn5Zb/Image-2025-06-30-at-14-05-43.jpg"
+                    alt="Photo of the website creator" width="200">
+            </div>
+
+            <div class="rightsection">
+                <h3>Hi, I'm Tanishka,</h3>
+                <h2>I'M A WEB DEVELOPER</h2>
+                <p>
+                    I'm a Computer Science Engineering student passionate about building clean, creative,
+                    and user-friendly websites. I'm currently enhancing my skills in HTML, CSS, and JavaScript, and
+                    diving
+                    deeper into responsive design and interactive web elements. I enjoy bringing ideas to life through
+                    code and by
+                    collaborating on innovative tech projects.
+                </p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="projects" aria-label="Projects">
+            <h2 class="section-title">PROJECTS</h2>
+            <div class="projects-grid" id="projects-grid">
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="contact" aria-label="Contact">
+            <h2 class="section-title">CONTACT ME</h2>
+            <form id="contact-form">
+                <label for="name"></label>
+                <input id="name" type="text" placeholder="Your Name" required>
+
+                <label for="email"></label>
+                <input id="email" type="email" placeholder="Your Email" required>
+
+                <label for="message"></label>
+                <textarea id="message" rows="5" placeholder="Message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <hr>
+
+            <div class="socials">
+                <a href="https://github.com/tanni19p" target="_blank">
+                    <img src="https://i.postimg.cc/1t6xpTh9/github.png" alt="GitHub Profile">
+                </a>
+                <a href="https://www.linkedin.com/in/tanishka-pradhan" target="_blank">
+                    <img src="https://i.postimg.cc/zXkrt9Lv/linkedin.png" alt="LinkedIn Profile">
+                </a>
+            </div>
+
+            <p>You can reach me at <a href="mailto:tanishkapradhan19@gmail.com">tanishkapradhan19@gmail.com</a> </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tanishka Pradhan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
